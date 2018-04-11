@@ -1,6 +1,6 @@
 import Vue from 'nativescript-vue';
 
-import EmployeeList from './components/EmployeeList.vue';
+import ListPage from './components/ListPage.vue';
 
 import './styles.scss';
 
@@ -9,7 +9,7 @@ import './styles.scss';
 
 new Vue({
 
-  render: h => h(EmployeeList),
+  render: h => h(ListPage),
 
   methods: {
     test: function(){
