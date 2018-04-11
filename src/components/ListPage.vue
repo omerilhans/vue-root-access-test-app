@@ -15,8 +15,10 @@
   </Page>
 </template>
 
-
 <script>
+//--------------------- ROOT ACCESS ISSUE
+//--------------------- vm.$root.test() cant access, because not update dist folder
+//--------------------- so it must clean and re-run with npm.
 export default {  
   methods: {
     onItemTap() {
